@@ -1,0 +1,41 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block;
+    margin: 140px auto;
+    animation-name: shape;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 4s;
+
+
+}
+
+@keyframes shape {
+
+    0% {
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(0deg);
+    }
+
+    30% {
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(30deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        transform: rotate(90deg);
+    }
+
+    70% {
+        border-radius: 50% 0 0 0;
+        transform: rotate(120deg);
+    }
+
+    100% {
+        border-radius: 0 0 0 0;
+        transform: rotate(180deg);
+    }
+}

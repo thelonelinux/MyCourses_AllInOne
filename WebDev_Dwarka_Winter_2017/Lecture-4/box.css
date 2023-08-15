@@ -1,0 +1,30 @@
+.big-box {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.box {
+    width: 32%;
+    height: 200px;
+    border: 1px dashed red;
+    display: inline-block;
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .big-box {
+        width: 100%;
+    }
+    .box {
+        width: 49%;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .big-box {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+    }
+}

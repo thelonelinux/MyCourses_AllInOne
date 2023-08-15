@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <style>
+
+        /*.inside p {*/
+            /*color: blue;*/
+        /*}*/
+        /*.inside + p {*/
+            /*color: green;*/
+        /*}*/
+        /*.inside > p > a  {*/
+           /*color: red;*/
+        /*}*/
+
+        .inside ~ p {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div> 
+   <div class="inside">
+    <p> Inside div 1
+      <a href="">Hello</a>
+    </p>
+   </div>
+    <div class="inside">
+    <p> Inside div 2 </p> 
+   </div>
+    <div class="inside">
+     <p> Inside div 3 </p> 
+   </div>
+    <div class="inside">
+     <p> Inside div 4 </p> 
+   </div>
+    <p> Inside div and outside1 div </p>
+    <p> Inside div and outside2 div </p>
+    <p> Inside div and outside3 div </p>
+</div>
+</body>
+</html>

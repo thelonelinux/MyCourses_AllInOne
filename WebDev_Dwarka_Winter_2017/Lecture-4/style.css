@@ -1,0 +1,25 @@
+.navigation {
+    background-color: #f2f2f2;
+    padding: 4px;
+
+}
+
+ul li{
+  list-style: none;
+  /*display: inline-block;*/
+   margin-bottom: 8px;
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+@media (min-width: 758px) {
+    ul li {
+        display: inline-block;
+        margin-right: 8px;
+    }
+    li:hover {
+        color: brown;
+    }
+}
