@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+	<student>
+		<id>1</id>
+		<name>Charan</name>
+		<std>10</std>
+		<gender>M</gender>
+		<marks>95</marks>
+		<address>Delhi</address>
+	</student>
+</students>
