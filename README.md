@@ -1,10 +1,7 @@
 # OnlineCourseLearningAndReposForked_AllInOne
-Online/Offline Courses Taken Stuffs : CodingBlocks (Elixir, Pandora, Crux) and Edureka (Angular, Java, Microservices)
+Online/Offline Courses Taken Stuffs : CodingBlocks (Elixir, Pandora, Crux) 
 It contains the repo where code were stored
 
-## For Edureka Java
-### https://github.com/suniledureka 
-#### Check here for new codes and idea of course
 
 
 
